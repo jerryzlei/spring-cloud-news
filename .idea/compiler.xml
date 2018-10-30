@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="article" />
+        <module name="comment" />
+        <module name="index" />
+        <module name="news-common" />
+        <module name="news-config" />
+        <module name="news-gateway" />
+        <module name="news-register" />
+        <module name="user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="newsclient" target="1.5" />
+      <module name="register" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
